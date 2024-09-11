@@ -1,0 +1,12 @@
+body {
+  background-color: #050522;
+  color: #ffffff;
+}
+textarea {
+  background-color: #050522;
+  color: #ffffff;
+  outline: none;
+  padding: 20px;
+  font-weight: 600;
+  font-family: Cascadia Code;
+}

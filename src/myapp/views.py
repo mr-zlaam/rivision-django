@@ -8,7 +8,7 @@ def index(request):
 
 
 def counter(request):
-    words: str = request.GET["textarea"]
-    len_of_words: int = len(words)
+    words: str = request.POST["textarea"]
+    len_of_words: int = len(words.split(" "))
 
     return render(request, "counter.html", {"length": len_of_words})
