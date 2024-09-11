@@ -5,3 +5,7 @@ scripts:
     - cd src && python manage.py makemigrations
   migrate:
     - cd src && python manage.py migrate
+  createApp:
+    - ./scripts/dj_scripts.sh
+  deleteApp:
+    - ./scripts/dj_scripts.sh
